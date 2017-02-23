@@ -1,0 +1,24 @@
+datalab create --project "datalab2-159406" --zone "us-central1-a" "instance-name"
+datalab create        --project "project-id"        --zone "zone"        --no-launch-browser \
+ssh -i ~/.ssh/my-ssh-key nitesh@146.148.59.87
+datalab create        --project "datalab2-159406"        --zone "us-central1-a"        --no-launch-browser        "instance-name"
+datalab delete --project "datalab2-159406" --zone "us-central1-a" "instance-name"
+datalab delete --project "atomic-elixer-149606" --zone "us-central1-a" "instance-name"
+datalab create        --project "atomic-elixir-149606"        --zone "us-central1-a"        --no-launch-browser        "instance-name"
+work-allow-ssh
+ERROR: (gcloud.alpha.source.repos.create) Failed to create repository [datalab-notebooks] for Project [datalab2-159406] with 
+datalab connect      --project "datalab1-159607"        --zone "us-central1-a"        --no-launch-browser        "instance-4" 
+datalab connect      --project "datalab1-159607"        --zone "us-central1-a"        --no-launch-browser        "instance-4"  --no-user-checking
+datalab stop      --project "datalab1-159607"        --zone "us-central1-a"          "instance-4" 
+datalab connect      --project "datalab1-159607"        --zone "us-central1-a"        --no-launch-browser        "instance-4"  --no-user-checking
+datalab stop      --project "datalab1-159607"        --zone "us-central1-a"          "instance-4" 
+ssh-keygen -t rsa -f ~/.ssh/my-ssh-key -C nitesh
+chmod 777 ~/.ssh/my-ssh-key
+ssh-keygen -t rsa -f ~/.ssh/my-ssh-key -C nitesh
+chmod 400 ~/.ssh/my-ssh-key
+cat ~/.ssh/my-ssh-key
+ssh-keygen -t rsa -f ~/.ssh/my-ssh-key -C nitesh
+chmod 777 ~/.ssh/my-ssh-key
+ssh-keygen -t rsa -f ~/.ssh/my-ssh-key -C nitesh
+chmod 400 ~/.ssh/my-ssh-key
+cat ~/.ssh/my-ssh-key
