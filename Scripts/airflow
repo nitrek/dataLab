@@ -1,0 +1,29 @@
+    1  export AIRFLOW_HOME=~/airflow
+    2  pip install airflow
+    3  apt-get install python-pip
+    4  sudo apt-get install python-pip
+    5  pip install airflow
+    6  airflow
+    7  airflow initdb
+    8  airflow webserver -p 8080 # Test it out by opening a web browser and go to localhost:8080
+    9  airflow webserver -p 8081 # Test it out by opening a web browser and go to localhost:8080
+   10  kill -9 7266
+   11  airflow webserver -p 8081 # Test it out by opening a web browser and go to localhost:8080
+   12  pip install airflow[crypto] # For connection credentials protection
+   13  pip install airflow[postgres] # For PostgreSQL DBs
+   14  pip install airflow[celery] # For distributed mode: celery executor
+   15  pip install airflow[rabbitmq] # For message queuing and passing between airflow server and workers
+   16  airflow webserver -p 8081 # Test it out by opening a web browser and go to localhost:8080
+   17  less /home/koolestnitesh/.local/lib/python2.7/site-packages/airflow/example_dags/example_twitter_dag.py
+   18  airflow initdb
+   19  history | grep pip
+   20  pip install airflow[hive]
+   21  airflow initdb
+   22  airflow webserver -p 8081 # Test it out by opening a web browser and go to localhost:8080
+   23  kill -9 9222
+   24  airflow webserver -p 8081 # Test it out by opening a web browser and go to localhost:8080
+   25  airflow webserver -p 8080
+   26  kill -9 9840
+   27  airflow webserver -p 8080
+   28  hostory
+   29  history
